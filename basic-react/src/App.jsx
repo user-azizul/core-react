@@ -1,12 +1,10 @@
-import ReactDOM from "react-dom/client";
-
-function App({ props }) {
-  return (
-    <center>
-      <h1> {new Date().toLocaleTimeString(props)}</h1>
-    </center>
-  );
-}
+// function App({ props }) {
+//   return (
+//     <center>
+//       <h1> {new Date().toLocaleTimeString(props)}</h1>
+//     </center>
+//   );
+// }
 
 // class App extends React.Component {
 //   render() {
@@ -18,4 +16,9 @@ function App({ props }) {
 //   }
 // }
 
+import Input from "./ReactEvents/ReactCounter";
+
+function App() {
+  return <Input />;
+}
 export default App;

@@ -1,0 +1,4 @@
+***
+we use props to pass data and values from one component to another to get dynamic and unique outputs.
+
+** props stands for properties.

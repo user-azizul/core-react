@@ -1,0 +1,5 @@
+Avoid Using Anonymous Arrow Functions Inside Events
+It looks convenient to use arrow functions directly in events, like onClick={() => console.log('button clicked')}. The downside to this is that it can lead to performance issues because a new function is created on every render.
+
+***Clean Up Event Listeners
+If you set up your event listeners in useEffect, always return a cleanup function to remove the event listener. Otherwise, it'll cause memory leaks.
