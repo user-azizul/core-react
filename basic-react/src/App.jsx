@@ -16,9 +16,8 @@
 //   }
 // }
 
-import InputHandler from "./ReactEvents/InputHandler";
-
+import UseEffectHook from "./Hooks/UseEffectHook";
 function App() {
-  return <InputHandler />;
+  return <UseEffectHook name="Aziz" />;
 }
 export default App;
