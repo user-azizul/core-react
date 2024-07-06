@@ -16,9 +16,9 @@
 //   }
 // }
 
-import Login from "./ReactEvents/ReactCounter";
+import InputHandler from "./ReactEvents/InputHandler";
 
 function App() {
-  return <Login />;
+  return <InputHandler />;
 }
 export default App;
