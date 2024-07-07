@@ -16,8 +16,8 @@
 //   }
 // }
 
-import UseEffectHook from "./Hooks/UseEffectHook";
+import UiTodo from "./Hooks/useCallbackAndMemo/UiTodo";
 function App() {
-  return <UseEffectHook name="Aziz" />;
+  return <UiTodo />;
 }
 export default App;
