@@ -16,8 +16,8 @@
 //   }
 // }
 
-import UiTodo from "./Hooks/useCallbackAndMemo/UiTodo";
+import UseEffectHook from "./Hooks/UseEffectHook";
 function App() {
-  return <UiTodo />;
+  return <UseEffectHook />;
 }
 export default App;
