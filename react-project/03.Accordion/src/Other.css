@@ -48,7 +48,7 @@ button {
   justify-content: center;
   align-items: center;
   height: fit-content;
-  width: fullscreen;
+  width: 100vw;
   flex-direction: column;
   gap: 20px;
 }
