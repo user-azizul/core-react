@@ -1,0 +1,87 @@
+/* .App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.accordion {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.accordion-title h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.accordion-content {
+  padding: 15px;
+  background-color: #fff;
+} */
+
+/* accordion 2 styling belew  */
+/* src/Accordion.css */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fullscreen;
+  flex-direction: column;
+  gap: 20px;
+}
+.accordion {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding: 0 10px;
+}
+
+.accordion-content.active {
+  max-height: 100px; /* Adjust based on your content */
+  padding: 10px;
+}

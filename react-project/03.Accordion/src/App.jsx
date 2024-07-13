@@ -1,16 +1,16 @@
-
-import './Accordion.css'
-import Accordion from "./Accordion"
-
+import Accordion from "./Accordion";
+import Accordion2 from "./OtherApp";
 
 function App() {
- 
-
   return (
     <>
-   <Accordion></Accordion>
+      <Accordion2 />
+      <br />
+      <br />
+      <br />
+      {/* <OtherApp /> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
