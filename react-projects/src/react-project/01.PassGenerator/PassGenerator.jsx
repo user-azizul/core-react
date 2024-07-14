@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 
-function App() {
+function PassWordGenerator() {
   const [defaultLength, setDefaultLength] = useState(8); // Default length state
   const [length, setLength] = useState(defaultLength); // Length state
   const [password, setPassword] = useState("");
@@ -92,4 +92,4 @@ function App() {
   );
 }
 
-export default App;
+export default PassWordGenerator;
