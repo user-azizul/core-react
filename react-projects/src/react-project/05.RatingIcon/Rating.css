@@ -1,0 +1,20 @@
+.Rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Rating .active {
+  color: gold;
+}
+
+.Rating .inactive {
+  color: grey;
+  cursor: pointer;
+}
+
+.Rating .active,
+.Rating .inactive {
+  transition: color 0.2s;
+}
