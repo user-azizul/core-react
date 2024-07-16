@@ -1,0 +1,137 @@
+/*.flex-container {
+  position: relative;
+  display: grid;
+  place-items: center;{ /* This centers content both horizontally and vertically *
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.current-image {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.circle-indicators {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.current-indicator {
+  background-color: #ffffff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.hide-current-image {
+  display: none;
+}
+
+.inactive-indicator {
+  background-color: gray;
+}
+*/
+/* Container for the slider */
+.flex-container {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  display: grid;
+  place-items: center;
+  margin: 10px auto;
+}
+
+/* Images in the slider */
+.current-image {
+  max-width: 100%; /* Ensure images fit within the container */
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease; /* Smooth transition for opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.current-image.active {
+  opacity: 1;
+}
+
+/* Arrow styles */
+.arrow {
+  position: absolute;
+  z-index: 99;
+  top: 200px;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #555;
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.arrow:hover {
+  color: #000;
+}
+
+/* Indicator buttons */
+
+.current-indicator {
+  background-color: #ffffff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.inactive-indicator {
+  background-color: gray;
+}
+.current-indicator {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.current-indicator.active {
+  background-color: #555;
+}
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+span.current-indicators {
+  position: absolute;
+  top: 420px;
+}
