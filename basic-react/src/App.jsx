@@ -16,9 +16,9 @@
 //   }
 // }
 
-import ContextApiApp from "./ContextApi/ContextApiApp";
+// import ContextApiApp from "./ContextApi/ContextApiApp";
 import ContextApp from "./ContextApi/SimplePorject/ContextApp";
-import UseEffectHook from "./Hooks/UseEffectHook";
+// import UseEffectHook from "./Hooks/UseEffectHook";
 function App() {
   return <ContextApp />;
 }
