@@ -17,8 +17,9 @@
 // }
 
 import ContextApiApp from "./ContextApi/ContextApiApp";
+import ContextApp from "./ContextApi/SimplePorject/ContextApp";
 import UseEffectHook from "./Hooks/UseEffectHook";
 function App() {
-  return <ContextApiApp />;
+  return <ContextApp />;
 }
 export default App;
