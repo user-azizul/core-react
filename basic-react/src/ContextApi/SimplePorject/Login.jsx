@@ -9,7 +9,7 @@ const Login = () => {
 
   const handleLogin = () => {
     if (name.trim()) {
-      setUser({ name });
+      setUser({name});
       setError(""); // Clear any previous errors
     } else {
       setError("Name cannot be empty");
