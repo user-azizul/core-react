@@ -7,6 +7,8 @@ import RatingIcon from "./react-project/05.RatingIcon/RatingIcon";
 import ImageSlider from "./react-project/06.slider/Slider";
 import LoadMoreData from "./react-project/07.LoadMoreData/LoadMoreData";
 import RouterApp from "./react-project/08.router project/RouterApp";
+import TreeMenu from "./react-project/09.TreeMenu/TreeMenu";
+import Menus from "./react-project/09.TreeMenu/Data";
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
       {/* <RatingIcon /> */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={5} /> */}
       {/* <LoadMoreData /> */}
-      <RouterApp />
+      {/* <RouterApp /> */}
+      <TreeMenu menus={Menus} />
     </>
   );
 }
