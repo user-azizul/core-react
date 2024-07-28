@@ -9,6 +9,7 @@ import LoadMoreData from "./react-project/07.LoadMoreData/LoadMoreData";
 import RouterApp from "./react-project/08.router project/RouterApp";
 import TreeMenu from "./react-project/09.TreeMenu/TreeMenu";
 import Menus from "./react-project/09.TreeMenu/Data";
+import QrCodeGenerator from "./react-project/10.QrCode/QrCode";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={5} /> */}
       {/* <LoadMoreData /> */}
       {/* <RouterApp /> */}
-      <TreeMenu menus={Menus} />
+      {/* <TreeMenu menus={Menus} /> */}
+      <QrCodeGenerator />
     </>
   );
 }
