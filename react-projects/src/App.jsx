@@ -10,6 +10,7 @@ import RouterApp from "./react-project/08.router project/RouterApp";
 import TreeMenu from "./react-project/09.TreeMenu/TreeMenu";
 import Menus from "./react-project/09.TreeMenu/Data";
 import QrCodeGenerator from "./react-project/10.QrCode/QrCode";
+import ThemeLocalStorage from "./react-project/11.ThemeLocalStorage/ThemeLocalStorage";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* <RouterApp /> */}
       {/* <TreeMenu menus={Menus} /> */}
-      <QrCodeGenerator />
+      {/* <QrCodeGenerator />  */}
+      <ThemeLocalStorage/>
     </>
   );
 }
