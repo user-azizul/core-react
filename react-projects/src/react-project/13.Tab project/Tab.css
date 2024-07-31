@@ -1,0 +1,45 @@
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 15px auto;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+button.tab-btn.active {
+  background-color: #1399fc;
+}
+button.tab-btn {
+  background: #9ca3af;
+  padding: 5px 10px;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.content-container {
+  margin: 10px auto;
+  width: 600px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-container .content {
+  display: none;
+}
+.content-container .content.active {
+  display: block;
+}
+.content h4 {
+  color: #1399fc;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.content p {
+  line-height: 1.7;
+}
