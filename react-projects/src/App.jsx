@@ -11,6 +11,7 @@ import TreeMenu from "./react-project/09.TreeMenu/TreeMenu";
 import Menus from "./react-project/09.TreeMenu/Data";
 import QrCodeGenerator from "./react-project/10.QrCode/QrCode";
 import ThemeLocalStorage from "./react-project/11.ThemeLocalStorage/ThemeLocalStorage";
+import Scroll from "./react-project/12.Scroll_indicator/Scroll";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <RouterApp /> */}
       {/* <TreeMenu menus={Menus} /> */}
       {/* <QrCodeGenerator />  */}
-      <ThemeLocalStorage/>
+      {/* <ThemeLocalStorage/> */}
+      <Scroll/>
     </>
   );
 }
