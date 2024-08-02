@@ -20,6 +20,20 @@
   animation-name: animateModal;
   animation-duration: 0.5s;
 }
+.button-container {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  background: #34a424;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+}
 
 .close-modal-icon {
   cursor: pointer;
@@ -39,6 +53,10 @@
 .body {
   padding: 2px 16px;
   height: 200px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {

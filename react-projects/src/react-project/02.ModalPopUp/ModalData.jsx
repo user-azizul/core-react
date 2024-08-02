@@ -15,7 +15,9 @@ export default function ModalTest() {
 
   return (
     <div>
-      <button onClick={handleToggleModalPopup}>Open Modal Popup</button>
+      <div className="button-container">
+        <button onClick={handleToggleModalPopup}>Open Modal Popup</button>
+      </div>
       {showModalPopup && (
         <Modal
           id={"custom-id"}
