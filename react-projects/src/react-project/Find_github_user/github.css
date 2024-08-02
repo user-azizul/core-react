@@ -1,0 +1,81 @@
+.-title {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+h4.git-title {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 500;
+  color: #1399fc;
+}
+.form {
+  color: #000000;
+  margin: 20px 0;
+}
+.form input {
+  padding: 8px;
+  width: 400px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+form button {
+  padding: 8px;
+  background-color: rgb(0, 162, 255);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.Github {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.github-card {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  border: 1px solid #eee;
+  padding: 10px;
+  height: 272px;
+  align-items: center;
+}
+
+.img-wrapper {
+  height: 150px;
+  width: 150px;
+}
+.img-wrapper img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+ul.inner_content {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: 20px 0;
+}
+
+li.git-list {
+  padding: 5px 8px;
+  background: rgb(33, 185, 33);
+  border-radius: 4px;
+}
+
+.git-content a {
+  background: rgb(204, 33, 33);
+  padding: 5px 7px;
+  margin: 20px 0;
+  border-radius: 4px;
+  display: inline-block;
+}
