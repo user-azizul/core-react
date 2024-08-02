@@ -19,7 +19,7 @@ function App() {
     <>
       {/* <PassWordGenerator />; */}
 
-      {/* <ModalData /> */}
+      <ModalData />
       {/* <Accordion/> */}
       {/* <RandomColor /> */}
       {/* <RatingIcon /> */}
@@ -30,7 +30,7 @@ function App() {
       {/* <QrCodeGenerator />  */}
       {/* <ThemeLocalStorage/> */}
       {/* <Scroll/>  */}
-      <TabApp />
+      {/* <TabApp /> */}
     </>
   );
 }
