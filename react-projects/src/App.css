@@ -2,3 +2,6 @@ button {
   font-weight: 600;
   color: #fff;
 }
+input {
+  color: black !important;
+}
