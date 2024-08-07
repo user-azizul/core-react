@@ -1,0 +1,29 @@
+.tree-node {
+  margin-left: 20px;
+}
+
+.tree-node-label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.tree-node-icon {
+  margin-right: 5px;
+}
+
+.folder-icon {
+  color: #f39c12; /* Gold color for folders */
+}
+
+.file-icon {
+  color: #3498db; /* Blue color for files */
+}
+.tree-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  text-align: start;
+  margin: 0 auto;
+}
