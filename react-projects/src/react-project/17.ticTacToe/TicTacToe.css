@@ -1,0 +1,26 @@
+.gameContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: auto;
+}
+
+.board {
+  width: 400px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+button.board-btn {
+  border: 1px solid #eee;
+  height: 100px;
+}
