@@ -1,0 +1,143 @@
+/* Container for the buttons 
+.button-container {
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  background-color: #fff;
+  color: black;
+  z-index: 999;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Style for each button 
+.button-container button {
+  margin: 5px;
+  background: #4e4c49;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #333;
+}
+
+Common styles for each section 
+.section {
+  width: 100%;
+  height: 80vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: black;
+}
+
+ Specific background colors for each section 
+.section-red {
+  background-color: red;
+}
+
+.section-blue {
+  background-color: blue;
+  color: white;
+}
+
+.section-green {
+  background-color: green;
+  color: white;
+}
+
+.section-purple {
+  background-color: purple;
+  color: white;
+}
+
+.section-orange {
+  background-color: orange;
+}
+    
+/* ScrollToSection.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Button Container Styles */
+.button-containers {
+  position: fixed;
+  top: 10px; /* Adjust based on your navbar height */
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: height 0.3s ease;
+  left: 0;
+}
+
+/* Button Styles */
+.button-containers button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-containers button:hover {
+  background-color: #0056b3;
+}
+
+/* Section Styles */
+.section {
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Section Color Styles */
+.section-red {
+  background-color: red;
+}
+.section-blue {
+  background-color: blue;
+}
+.section-green {
+  background-color: green;
+}
+.section-purple {
+  background-color: purple;
+}
+.section-orange {
+  background-color: orange;
+}
+.mysection {
+  margin-top: 70px;
+}

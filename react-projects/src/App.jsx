@@ -17,6 +17,7 @@ import GithubApi from "./react-project/14.Find_github_user/GithubApi";
 import AutoComplete from "./react-project/15.AutoSearchComplete/AutoComplete";
 import TreeView from "./react-project/16.Recursion With Tree Menu/TreeView";
 import TicTacToe from "./react-project/17.ticTacToe/TicTacToe";
+import ScrollToSection from "./react-project/18.Scroll to section/ScrollToSection";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <GithubApi /> */}
       {/* <AutoComplete />   */}
       {/* <TreeView /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <ScrollToSection />
     </>
   );
 }
