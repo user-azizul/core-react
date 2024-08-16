@@ -18,6 +18,7 @@ import AutoComplete from "./react-project/15.AutoSearchComplete/AutoComplete";
 import TreeView from "./react-project/16.Recursion With Tree Menu/TreeView";
 import TicTacToe from "./react-project/17.ticTacToe/TicTacToe";
 import ScrollToSection from "./react-project/18.Scroll to section/ScrollToSection";
+import PaginationApp from "./react-project/19.pagination/PaginationApp";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <AutoComplete />   */}
       {/* <TreeView /> */}
       {/* <TicTacToe /> */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+      <PaginationApp />
     </>
   );
 }

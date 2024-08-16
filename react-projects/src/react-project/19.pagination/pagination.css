@@ -1,0 +1,90 @@
+/* Pagination Container */
+.pagination-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Pagination List */
+.pagination-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+/* Pagination List Items */
+.pagination-item {
+  margin: 0 5px;
+}
+
+/* Pagination Buttons */
+.pagination-button {
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  background-color: white;
+  color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Active Page Button */
+.pagination-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Disabled Button */
+.pagination-button.disabled {
+  border-color: #d3d3d3;
+  background-color: #f0f0f0;
+  color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+/* Hover Effects */
+.pagination-button:hover:not(.disabled):not(.active) {
+  background-color: #e9f3ff;
+}
+
+/* Container Styles */
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header Styles */
+.app-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* List Group Styles */
+.list-group {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/* List Group Item Styles */
+.list-group-item {
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: left;
+  transition: background-color 0.2s ease;
+  color: black;
+}
+
+/* List Group Item Hover Effect */
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
