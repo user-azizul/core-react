@@ -20,6 +20,7 @@ import TicTacToe from "./react-project/17.ticTacToe/TicTacToe";
 import ScrollToSection from "./react-project/18.Scroll to section/ScrollToSection";
 import PaginationApp from "./react-project/19.pagination/PaginationApp";
 import AccordionAlt from "./react-project/03.Accordion/alternative/AccordionAlt";
+import LoadDataFromGithub from "./react-project/07.LoadMoreData/LoadDataFromGithub";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <TicTacToe /> */}
       {/* <ScrollToSection /> */}
       {/* <PaginationApp /> */}
-      <AccordionAlt/>
+      {/* <AccordionAlt/> */}
+      <LoadDataFromGithub/>
     </>
   );
 }
