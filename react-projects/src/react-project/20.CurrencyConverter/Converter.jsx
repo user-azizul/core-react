@@ -44,7 +44,7 @@ function Coverter() {
     <div className="currency-continer">
       <h3 className="text-center ">Currency Converter</h3>
       <div className="currency">
-        <div className=" flex amount">
+        <div className=" flex_ amount">
           <label htmlFor="Amount">Amount</label>
           <input
             type="number"
@@ -52,7 +52,7 @@ function Coverter() {
             onChange={(e) => setAmount(e.target.value)}
           />
         </div>
-        <div className=" flex from">
+        <div className=" flex_  from">
           <label htmlFor="From">From</label>
           <select value={from} onChange={(e) => setFrom(e.target.value)}>
             {currencys.map((currency) => (
@@ -62,7 +62,7 @@ function Coverter() {
             ))}
           </select>
         </div>
-        <div className=" flex to">
+        <div className=" flex_ to">
           <label htmlFor="From">From</label>
           <select value={to} onChange={(e) => setTo(e.target.value)}>
             {currencys.map((currency) => (
