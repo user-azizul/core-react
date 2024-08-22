@@ -20,12 +20,12 @@ import TicTacToe from "./react-project/17.ticTacToe/TicTacToe";
 import ScrollToSection from "./react-project/18.Scroll to section/ScrollToSection";
 import PaginationApp from "./react-project/19.pagination/PaginationApp";
 
-import  Converter from './react-project/20.CurrencyConverter/Converter'
+import Converter from "./react-project/20.CurrencyConverter/Converter";
 
 import AccordionAlt from "./react-project/03.Accordion/alternative/AccordionAlt";
 import LoadDataFromGithub from "./react-project/07.LoadMoreData/LoadDataFromGithub";
 import FilteredProductApp from "./react-project/21.filterProduct/FilterProduct";
-
+import FormComponent from "./react-project/22.FromValidation/FormValidation";
 
 function App() {
   return (
@@ -55,8 +55,8 @@ function App() {
 
       {/* <AccordionAlt/> */}
       {/* <LoadDataFromGithub/> */}
-      <FilteredProductApp/>
-
+      {/* <FilteredProductApp/> */}
+      <FormComponent />
     </>
   );
 }
