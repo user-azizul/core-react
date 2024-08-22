@@ -1,5 +1,6 @@
-// src/FormComponent.js
+// src/components/FormComponent.js
 import React, { useState } from "react";
+import "./style.css"; // Import the CSS file
 
 function FormComponent() {
   const [formData, setFormData] = useState({
@@ -51,45 +52,52 @@ function FormComponent() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-        />
-        {errors.name && <p>{errors.name}</p>}
-      </div>
+    <div className="form-container">
+      <h2 className="form-title">Register</h2>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label htmlFor="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+          />
+          {errors.name && <p className="error-message">{errors.name}</p>}
+        </div>
 
-      <div>
-        <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-        {errors.email && <p>{errors.email}</p>}
-      </div>
+        <div className="form-group">
+          <label htmlFor="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          {errors.email && <p className="error-message">{errors.email}</p>}
+        </div>
 
-      <div>
-        <label htmlFor="password">Password</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          value={formData.password}
-          onChange={handleChange}
-        />
-        {errors.password && <p>{errors.password}</p>}
-      </div>
+        <div className="form-group">
+          <label htmlFor="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+          />
+          {errors.password && (
+            <p className="error-message">{errors.password}</p>
+          )}
+        </div>
 
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit" className="submit-button">
+          Submit
+        </button>
+      </form>
+    </div>
   );
 }
 
